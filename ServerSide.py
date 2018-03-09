@@ -1,7 +1,7 @@
 import socket
 
-LocalIPAddress = "127.0.0.1" #Enter your local ip address here
-port = 44 #Enter a port number to bind the socket to. This can be an integer from 1 to 65535
+LocalIPAddress = "" #Enter your local ip address here
+port = 0 #Enter a port number to bind the socket to. This can be an integer from 1 to 65535
 data = ""
 request = ""
 
