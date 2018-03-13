@@ -1,6 +1,6 @@
 import socket
 
-LocalIPAddress = "" #Enter your local ip address here
+LocalIPAddress = socket.gethostbyname(socket.gethostname())
 port = 0 #Enter a port number to bind the socket to. This can be an integer from 1 to 65535
 data = ""
 request = ""
